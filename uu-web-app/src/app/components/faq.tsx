@@ -21,16 +21,16 @@ const faqs = [
 
 export default function FAQ() {
   return (
-    <section id="faq" className="max-w-2xl mx-auto my-12 p-6 bg-white rounded-lg shadow" tabIndex={0}>
-      <h2 className="text-xl font-bold mb-4">Frequently Asked Questions</h2>
-      <ul className="space-y-4">
+    <div id="faq" className="max-w-2xl mx-auto my-12 p-6 bg-white rounded-lg shadow" >
+      <p className="text-xl font-bold mb-4">Frequently Asked Questions</p>
+      <div className="space-y-4">
         {faqs.map((faq, idx) => (
-          <li key={idx}>
+          <div key={idx}>
             <p className="font-semibold text-gray-800">{faq.question}</p>
             <p className="text-gray-600">{faq.answer}</p>
-          </li>
+          </div>
         ))}
-      </ul>
-    </section>
+      </div>
+    </div>
   );
 } 

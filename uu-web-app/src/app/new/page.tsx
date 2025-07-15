@@ -3,9 +3,9 @@ import NewPosting from "@/app/components/new-posting";
 
 export default function NewAd() {
     return (
-        <section>
+        <div>
             <NewPosting />
-        </section>
+        </div>
     )
 }
 

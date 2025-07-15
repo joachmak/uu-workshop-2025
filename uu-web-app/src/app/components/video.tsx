@@ -1,16 +1,10 @@
 export default function Video() {
     return (
-        <section>
+        <div>
             <video width="600" src="videoUtenUndertekster.mov" controls className={"mx-auto"}>
-                <track
-                    label="English"
-                    kind="subtitles"
-                    srcLang="en"
-                    src="video-captions.vtt"
-                    default
-                />
+                {/* TODO: add <track> for captions */}
                 Your browser does not support the video tag.
             </video>
-        </section>
+        </div>
     )
 }
