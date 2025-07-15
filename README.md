@@ -1,1 +1,1 @@
-# uu-workshop-2025
+# Løsningsforslag for UU-workshoppen
