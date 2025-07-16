@@ -3,8 +3,7 @@
 ### 🚀 Kjør applikasjonen
 ```bash
 cd uu-web-app && npm i && npm run dev
-```
-Dette vil også slette og fylle databasen med test-data. Hvis dere ønsker å starte helt på nytt, så er det altså bare å kjøre `npm run dev`. 
+``` 
 
 Etter en liten stund vil applikasjonen trolig kjøre på [localhost:3000](http://localhost:3000) (med mindre porten er opptatt).
 
